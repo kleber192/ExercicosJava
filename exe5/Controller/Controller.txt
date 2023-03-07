@@ -1,0 +1,38 @@
+ package Controller;
+
+public class Rsomatoria {
+
+	public Rsomatoria() {
+	   super();
+	}
+
+	public static double Rsomatoria(int num ) {
+		
+		if (num == 1 ) {
+			
+			return 1;
+			
+			/*
+			    * Condição de parada : se a variavel num for igual a um  então retorna um  .
+			    * 
+			    */
+		}else {
+			
+			for (int i = 1 ; i <=num ; i++) {
+				
+				
+				double total = 0.0 ; 
+				
+				
+				total += (1/(double)i);
+				
+				System.out.printf("1/"+i+" + ");
+				System.out.print(total);
+				
+				/*
+				    * Condição de retorno  : calculo de divisão com cast e retrono de resultado  .
+				    * 
+				    */
+			}
+			
+		}
