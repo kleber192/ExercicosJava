@@ -1,0 +1,35 @@
+package Controller;
+
+public class RecursivaNaturais {
+
+	public RecursivaNaturais() {
+		super();
+	}
+
+	public static int Rnaturais(int nat) {
+		
+		    if (nat < -1  ) {
+		 
+		    	return 0 ; 
+		    	
+		    	/*
+				    * Condição de parada :se a variavel nat for igual ou menor que zero então retorna zero .
+				    * 
+				    */
+		    	
+		    } else {
+		    	
+		    	
+		    	return nat + Rnaturais (nat - 1 ) ; 
+		    	
+		    	/*
+				    * retorno :sera a variavel nat mais o metodo com o a variavel menos um .
+				    * 
+				    */
+		    	
+		    } 
+	
+		
+	}
+
+	}
