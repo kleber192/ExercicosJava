@@ -1,0 +1,22 @@
+package View;
+
+import Controller.RecursivaNaturais;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		
+		
+		RecursivaNaturais rec = new RecursivaNaturais();
+		
+		
+	   int nat = 9 ; 
+	   
+	   
+		int resp = rec.Rnaturais(nat);
+		System.out.println(resp);
+
+	}
+
+}
