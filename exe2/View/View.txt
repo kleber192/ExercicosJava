@@ -1,0 +1,23 @@
+package View;
+
+
+import Controller.Rbinario;
+
+
+public class Principalbi {
+
+	public static void main(String[] args) {
+		
+		
+		Rbinario rec = new Rbinario ();
+		
+		int num  = 200; 
+		
+		
+		int resp = rec.Rbinario(num);
+    	System.out.println(num % 2);
+
+
+	}
+
+}
