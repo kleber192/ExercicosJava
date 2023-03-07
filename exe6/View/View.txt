@@ -1,0 +1,20 @@
+package View;
+
+import Controller.Rsomatoria;
+
+
+
+public class PrincipalSomatoria {
+
+	public static void main(String[] args) {
+		
+		Rsomatoria rec = new Rsomatoria ();
+
+		int num = 10 ; 
+		
+		
+		double resp = rec.Rsomatoria(num);
+		System.out.println(resp);
+	}
+
+}
